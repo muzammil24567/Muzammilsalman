@@ -182,5 +182,4 @@ export const social = {
   linkedin: 'https://www.linkedin.com/in/muzammil-salman/',
 }
 export const achievements = [];
-export const stats = [];
 export const experience = [];
