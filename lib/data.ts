@@ -181,3 +181,6 @@ export const social = {
   instagram: 'https://www.instagram.com/muzammil_salman_/',
   linkedin: 'https://www.linkedin.com/in/muzammil-salman/',
 }
+export const achievements = [];
+export const stats = [];
+export const experience = [];
