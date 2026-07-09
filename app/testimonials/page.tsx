@@ -1,5 +1,5 @@
 import { PageHero } from '@/components/page-hero'
-import { TestimonialsSection } from '@/components/testimonials-section'
+import { TestimonialsSection } from '@/components/testimonial-carousel'
 import { CtaSection } from '@/components/cta-section'
 
 export const metadata = {

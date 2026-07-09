@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   description:
     'Muzammil Salman combines Artificial Intelligence with professional graphic design to help businesses grow with modern branding, marketing visuals, and digital experiences.',
   generator: 'v0.app',
+  icons: {
+    icon: '/logo.png',
+  },
   keywords: [
     'Muzammil Salman',
     'AI Expert',
@@ -56,6 +59,10 @@ export default function RootLayout({
       lang="en"
       className={`dark ${bebas.variable} ${poppins.variable} bg-background`}
     >
+      <head>
+        {/* Your icon link is safe here, though Next.js also handles it via the metadata config above */}
+        <link rel="icon" href="/logo.png" sizes="any" />
+      </head>
       <body className="font-sans antialiased bg-background text-foreground">
         <Preloader />
         <CustomCursor />

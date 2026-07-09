@@ -6,7 +6,7 @@ import { Marquee } from '@/components/marquee'
 import { SectionHeading } from '@/components/section-heading'
 import { ServicesGrid } from '@/components/services-grid'
 import { PortfolioPreview } from '@/components/portfolio-preview'
-import { TestimonialsSection } from '@/components/testimonials-section'
+import TestimonialSection from '@/components/testimonial-carousel'
 import { CtaSection } from '@/components/cta-section'
 import { Reveal } from '@/components/reveal'
 import { serviceTags } from '@/lib/data'
@@ -79,7 +79,7 @@ export default function HomePage() {
             description="Trusted by businesses, brands, startups, and entrepreneurs."
             className="mb-12"
           />
-          <TestimonialsSection />
+          <TestimonialSection />
         </div>
       </section>
 
